@@ -18,10 +18,6 @@ public class AStarAlgorithm extends PApplet {
     Node end;
     float w, h;
 
-    public static void main(String[] args) {
-	PApplet.main("components.AStarAlgorithm");
-    }
-
     public void settings() {
 	size(800, 800);
     }
